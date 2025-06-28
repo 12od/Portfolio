@@ -353,6 +353,9 @@ span {
 }
 
 .services-container .services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1 1 30rem;
   background: var(--bg-color);
   padding: 3rem 2rem 4rem;
